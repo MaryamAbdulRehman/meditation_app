@@ -1,3 +1,4 @@
+import 'package:figma_meditation/core/utils/image_path.dart';
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -38,7 +39,7 @@ class _SignInState extends State<SignIn> {
                 ),
                 child: Row(
                   children: [
-                    Image(image: AssetImage('images/facebook icon.png')),
+                    Image(image: AssetImage(ImagePath.faceBookImage)),
                     SizedBox(width: 15),
                     Text(
                       'CONTINUE WITH FACEBOOK',
@@ -60,7 +61,7 @@ class _SignInState extends State<SignIn> {
                 ),
                 child: Row(
                   children: [
-                    Image(image: AssetImage('images/Google icon png.png')),
+                    Image(image: AssetImage(ImagePath.googleImage)),
                     SizedBox(width: 15),
                     Text(
                       'CONTINUE WITH GOOGLE',

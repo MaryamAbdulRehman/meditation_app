@@ -1,8 +1,7 @@
-import 'package:figma_meditation/silentMoon.dart';
+
+
+import 'package:figma_meditation/view/Choosing_topics.dart';
 import 'package:flutter/material.dart';
-import 'Choosing_topics.dart' show MyBlocks;
-import 'SignIn.dart' show SignIn;
-import 'SignUp.dart' show SignUp;
 
 void main() {
   runApp(Route());

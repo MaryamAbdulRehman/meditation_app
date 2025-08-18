@@ -1,3 +1,4 @@
+import 'package:figma_meditation/core/utils/image_path.dart';
 import 'package:flutter/material.dart';
 
 class SilentMoon extends StatefulWidget {
@@ -37,7 +38,7 @@ class _SilentMoonState extends State<SilentMoon> {
                         ),
                       ),
                       SizedBox(width: 10),
-                      Image(image: AssetImage('images/logo.png')),
+                      Image(image: AssetImage(ImagePath.logoImage)),
                       SizedBox(width: 10),
 
                       Text(
@@ -50,7 +51,7 @@ class _SilentMoonState extends State<SilentMoon> {
                     ],
                   ),
                   SizedBox(height: 30),
-                  Image(image: AssetImage('images/silentmoon_image.jpg')),
+                  Image(image: AssetImage(ImagePath.silentMoonImage)),
                 ],
               ),
             ),
